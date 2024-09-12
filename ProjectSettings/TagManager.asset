@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Killzone
+  - Booster
   layers:
   - Default
   - TransparentFX
