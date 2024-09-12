@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: jumpText
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"jumpText","summary":"Display
+      and Hide","pan":{"x":0.0,"y":-30.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"fd919bf2-3d43-45a3-8dde-64037eac43c2","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"c960a4e3-590f-42a3-8619-72e713c6e884","$version":"A","$type":"Unity.VisualScripting.Update"},{"chainable":false,"member":{"name":"hideFlags","parameterTypes":null,"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"HideInHierarchy,HideInInspector,DontSaveInEditor,NotEditable,DontSaveInBuild,DontUnloadUnusedAsset,DontSave,HideAndDontSave","$type":"UnityEngine.HideFlags"}},"position":{"x":-54.0,"y":-144.0},"guid":"14dc2ada-2ce4-4d68-87dc-62ed779087a3","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"0a3639f3-9745-4ed0-8f2d-749479f05732","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: textManager
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Manage
+      Text","summary":"Hide, Show, Colliders, etc","pan":{"x":113.7534,"y":10.5209},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"6f73060a-ce74-4dab-b095-ae3c0c26acc9","$version":"A","$type":"Unity.VisualScripting.Update"},{"member":{"name":"enabled","parameterTypes":null,"targetType":"TMPro.TextMeshPro","targetTypeName":"TMPro.TextMeshPro","$version":"A"},"defaultValues":{"target":null},"position":{"x":184.0,"y":-434.0},"guid":"58571c20-1eb2-4a3d-8efb-c57cef3e246d","$version":"A","$type":"Unity.VisualScripting.GetMember"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"textPopup","$type":"System.String"},"object":null},"position":{"x":-98.0,"y":-451.0},"guid":"cade55a6-1eb5-4109-9037-d262b50579d3","$version":"A","$type":"Unity.VisualScripting.GetVariable"},{"chainable":false,"parameterNames":["sourceText","syncTextInputBox"],"member":{"name":"SetText","parameterTypes":["System.String","System.Boolean"],"targetType":"TMPro.TextMeshPro","targetTypeName":"TMPro.TextMeshPro","$version":"A"},"defaultValues":{"target":null,"%sourceText":{"$content":"","$type":"System.String"},"%syncTextInputBox":{"$content":true,"$type":"System.Boolean"}},"position":{"x":90.0,"y":-278.0},"guid":"7a27fa10-bdb0-4225-9f88-d4d3db8d2de3","$version":"A","$type":"Unity.VisualScripting.InvokeMember"}],"$version":"A"}}'
+    _objectReferences: []
